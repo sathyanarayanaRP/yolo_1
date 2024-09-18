@@ -133,4 +133,3 @@ with col2:
     if st.button("Refresh Logs"):
         log_text_area = "\n".join(st.session_state.logs)
         # st.experimental_rerun()
-
